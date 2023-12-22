@@ -1,0 +1,22 @@
+{
+  "name": "@mycore-org/service-worker-jwt",
+  "version": "0.0.1",
+  "description": "A simple Service Worker to communicate with the MyCoRe REST-API. The Service Worker appends a JWT to every request to the MyCoRe REST-API and renews it if necessary.",
+  "main": "src/registerMCRServiceWorker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MyCoRe-Org/service-worker-jwt.git"
+  },
+  "keywords": [
+    "mycore"
+  ],
+  "author": "Michel Büchner <michel.buechner@uni-jena.de>",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/MyCoRe-Org/service-worker-jwt/issues"
+  },
+  "homepage": "https://github.com/MyCoRe-Org/service-worker-jwt#readme"
+}
